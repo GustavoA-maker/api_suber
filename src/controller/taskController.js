@@ -9,7 +9,7 @@ async function storeTask(request, response) {
         request.body.description
     );
 
-    const query = "INSERT INTO bd_apisuber(title, description) VALUES(?,?)";
+    const query = "INSERT INTO taks(title, description) VALUES(?,?)";
 
     connection.query(query, params, (err, results) => {
         if(results) {
@@ -18,14 +18,15 @@ async function storeTask(request, response) {
              .json({
                 success: true,
                 message: "Sucesso!",
-                data: resulsts
+                data: results
              })
         } else {
             response
              .status(400)
              .json({
                 success: false,
-                message: "Ops, erro"
+                message: "Ops, erro",
+                data: err
              })
         }
     })
