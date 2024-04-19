@@ -4,22 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integração de formulário com API</title>
+    <title>Suber - Sua Jornada Começa Aqui</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Formulário</h2>
+    <header>
+        <!-- <div class="container"> -->
+        <img src="/img/suber.png" alt="Suber Logo" class="logo">
+        <div class="container-header">
 
-    <form action="#">
-        <label for="fname">Titulo:</label><br>
-        <input type="text" id="title" name="title"><br>
+            <img src="/img/globo.png" alt="globo logo" class="globo">
+            <h3 class="texto-logo">PT-BR</h3>
+        </div>
+        <!-- </div> -->
+    </header>
 
-        <label for="lname">Descrição:</label><br>
-        <input type="text" id="description" name="description"><br><br>
+    <main>
+        <!-- <section class="main-section"> -->
+        <section class="primeiro-container">
+            <!-- <div class="container"> -->
+            <div class="container-div">
+                <h3>Venha ser parte da Suber !</h3>
+                <p>Alugue pelo app da Suber. Você escolhe quando dirigir.</p>
+            </div>
 
-        <button id="handleSubmit">Enviar</button>
-    </form>
+            <img src="/img/Foto do App.png" alt="Foto do app" class="foto-app">
+        </section>
 
+        <section class="segundo-container">
+            <div class="Produtos">
+                <h3 class="nossos-produtos">Nossos Produtos</h3>
+                <div>
+                    <img src="/img/Fiat Cronus.jpg" alt="Fiat Cronus" class="fiat-cronus">
+                    <p class="fiat-cronus-p">Fiat Cronus</p>
+                </div>
+                <div>
+                    <img src="/img/Toyota Etios.png" alt="Toyota Etios" class="toyota-etios">
+                    <p class="toyota-etios-p">Toyota Etios</p>
+                </div>
+                <div>
+                    <img src="/img/Honda Civic.jpg" alt="Honda Civic" class="honda-civic">
+                    <p class="honda-civic-p">Honda Civic</p>
+                </div>
+                <div>
+                    <h3 class="como-funciona">Como funciona</h3>
+                    <p class="texto">Experimente a liberdade de viajar com nosso aplicativo de aluguel de carros.
+                        Escolha entre uma ampla seleção de veículos para encontrar o que melhor se adapta às suas
+                        necessidades. Com um processo de reserva simplificado, você pode planejar sua viagem em questão
+                        de minutos. E se seus planos mudarem, não se preocupe - nosso aplicativo oferece flexibilidade
+                        para ajustar sua reserva conforme necessário. Além disso, com locais de retirada convenientes e
+                        suporte ao cliente dedicado 24 horas por dia, estamos aqui para garantir que sua experiência
+                        seja perfeita do início ao fim. Baixe agora e comece sua jornada com facilidade e tranquilidade!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="terceiro-container">
+            <div class="experimente">
+                <h3>Experimente Agora</h3>
+            </div>
+            <form id="start-ride-form">
+                <input type="tel" id="phone-number" placeholder="Digite seu número de telefone" required>
+                <button id="handleSubmit" type="submit">Continuar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Conecte-se conosco:</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/uberbr/">Facebook</a></li>
+                <li><a href="https://twitter.com/Uber">Twitter</a></li>
+                <li><a href="https://www.instagram.com/uber/">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

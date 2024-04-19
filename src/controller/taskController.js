@@ -5,11 +5,10 @@ async function storeTask(request, response) {
 
     //Recuperando dados formulario
     const params = Array(
-        request.body.title,
-        request.body.description
+        request.body.phoneNumber
     );
 
-    const query = "INSERT INTO taks(title, description) VALUES(?,?)";
+    const query = "INSERT INTO num_cell(celular) VALUES(?)";
 
     connection.query(query, params, (err, results) => {
         if(results) {

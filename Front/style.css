@@ -1,0 +1,207 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.globo {
+    display: flex;
+    height: 5vh;
+    /* margin-left: px; */
+    
+}
+
+.texto-logo {
+    color: #000;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+}
+
+.main-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.primeiro-container{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.container-div{
+    color: #ffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foto-app {
+    height: 350px;
+    width: 500px;
+}
+
+.segundo-container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.nossos-produtos {
+    margin-left: 90vh;
+    margin-bottom: 15vh;
+}
+
+.fiat-cronus {
+    height: 250px;
+    width: 430px;
+    justify-content: left;
+    margin-right: 130vh;
+    margin-top: 10px;
+    margin-bottom: -5vh;
+}
+
+.Fiat-cronus-p {
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10000vh;
+    
+}
+
+.toyota-etios {
+    height: 250px;
+    width: 430px;
+    justify-content: center;
+    margin-left: 70vh;
+    margin-top: -60vh;
+}
+
+.Toyota-etios-p {
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.honda-civic {
+    height: 250px;
+    width: 430px;
+    justify-content: right;
+    margin-left: 138vh;
+    margin-top: -60vh;
+}
+
+.honda-civic-p {
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 165vh;
+}
+
+.Produtos {
+    margin-top: 50px;
+}
+
+.como-funciona {
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 90vh;
+}
+
+.texto{
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: -4vh;
+}
+
+.terceiro-container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.experimente  {
+    margin-top: 50px;
+    margin-bottom: 250px;
+    display: flex;
+    margin-left: 40vh;
+    margin-right: -58vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="tel"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 100vh;
+    margin-left: -30vh;
+    display: flex;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 35vh;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 10px;
+}
+
+.social-links a {
+    color: #000;
+    text-decoration: none;
+}
